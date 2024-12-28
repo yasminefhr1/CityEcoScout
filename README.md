@@ -4,10 +4,6 @@
 
 CityScout is an innovative AI-powered mobile platform designed to help users discover and evaluate environmentally responsible locations in their cities and beyond. By leveraging advanced APIs (Google Maps, Street View, Places) and cutting-edge Gemini AI technology, the application provides real-time sustainability metrics and immersive visualization of eco-friendly destinations.
 
-![image](https://github.com/user-attachments/assets/27734f4e-daeb-4224-98af-85ada53d979a)
-![image](https://github.com/user-attachments/assets/4ce8a645-e678-4d93-898f-f4c24100cda4)
-![image](https://github.com/user-attachments/assets/640e1d58-ad67-48fc-9882-46d2ae035880)
-
 
 ## Table of Contents
 
@@ -46,6 +42,11 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
   - JWT-based authentication
   - Role-based access control
   - Secure password management
+
+![image](https://github.com/user-attachments/assets/27734f4e-daeb-4224-98af-85ada53d979a)
+![image](https://github.com/user-attachments/assets/4ce8a645-e678-4d93-898f-f4c24100cda4)
+![image](https://github.com/user-attachments/assets/640e1d58-ad67-48fc-9882-46d2ae035880)
+
 
 ## Software Architecture
 
