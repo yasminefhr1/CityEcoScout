@@ -65,7 +65,9 @@ public class SecurityConfig {
         		"http://10.0.2.2:8080",
         		"http://192.168.11.111:45533",
         		"http://192.168.0.200:8080",
-        		"http://192.168.0.198:39979"
+        		"http://192.168.0.198:39979",
+        		"http://192.168.11.107:8080",
+        		"http://192.168.11.112:38949"
         		));
         
         // Permettre les méthodes HTTP nécessaires

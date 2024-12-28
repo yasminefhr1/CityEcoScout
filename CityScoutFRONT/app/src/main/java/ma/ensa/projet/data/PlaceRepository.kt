@@ -9,7 +9,7 @@ import org.json.JSONArray
 import java.net.URL
 
 class PlaceRepository {
-    private val baseUrl = "http://192.168.11.103:5000/get-data"
+    private val baseUrl = "http://192.168.11.107:5000/get-data"
 
     // Liste des catégories avec leurs variantes possibles
     private val categoryMap = mapOf(

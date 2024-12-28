@@ -9,7 +9,7 @@ import ma.ensa.projet.retrofit.PostApiService
 import java.util.concurrent.TimeUnit
 
 object RetrofitConfig {
-    private const val BASE_URL = "http://192.168.11.103:8080/"
+    private const val BASE_URL = "http://192.168.11.107:8080/"
     private const val TIMEOUT = 60L // seconds
 
     fun createPostApiService(context: Context): PostApiService {

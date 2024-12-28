@@ -18,8 +18,11 @@
     <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+     <sonar.projectKey>cityscout-backend</sonar.projectKey>
+    <sonar.projectName>CityScout-Backend</sonar.projectName>
+     <sonar.host.url>http://localhost:9000</sonar.host.url>
+    <sonar.login>sqp_a1bb298d2ba322749d812a121e59210060f4233f</sonar.login>
 </properties>
-
 <build>
     <plugins>
         <plugin>
@@ -33,6 +36,11 @@
                 </nonFilteredFileExtensions>
             </configuration>
         </plugin>
+<plugin>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.10.0.2594</version>
+</plugin>
     </plugins>
 </build>
 

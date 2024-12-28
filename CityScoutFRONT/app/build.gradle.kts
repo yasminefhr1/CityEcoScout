@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("org.sonarqube")
 }
 
 android {
@@ -45,6 +46,20 @@ android {
     packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
+        }
+    }
+    sonarqube {
+        properties {
+            property("sonar.projectKey", "cityscout-mobile")
+            property("sonar.projectName", "CityScout-Mobile")
+            property("sonar.host.url", "http://localhost:9000")
+            property("sonar.token", "sqp_df3bfe8c9fc9dcf1953a5793cbebfd6e4c4f43ec")
+
+            // Ajoutez ces propriétés pour une meilleure analyse
+            property("sonar.sources", "src/main/java")
+            property("sonar.language", "kotlin")
+            property("sonar.sourceEncoding", "UTF-8")
+            property("sonar.java.binaries", "build/intermediates/javac/debug/classes")
         }
     }
 }
