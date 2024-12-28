@@ -7,14 +7,23 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 
 ## Table of Contents
 
+- [CityScout: A Platform for Exploring Sustainable Locations Worldwide](#cityscout-a-platform-for-exploring-sustainable-locations-worldwide)
 - [Features](#features)
 - [Software Architecture](#software-architecture)
 - [Docker Configuration](#docker-configuration)
 - [Technologies Used](#technologies-used)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+  - [External Services](#external-services)
 - [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Prerequisites](#prerequisites)
+  - [Local Development Setup](#local-development-setup)
+- [Security](#security)
+- [Quality Assurance](#quality-assurance)
+- [Video Demo](#video-demo)
+- [Contributors](#contributors)
+- [Screens](#screens)
+
 
 ## Features
 
