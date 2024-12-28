@@ -2,16 +2,17 @@ version: '3.8'
 
 services:
   backend:
-    build: 
+    build:
       context: ./CityScoutBACK
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/cityscout
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/cityscout?createDatabaseIfNotExist=true
       - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=yourpassword
+      - SPRING_DATASOURCE_PASSWORD=
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - JWT_SECRET=moubarak_secure_key
     depends_on:
       - db
     networks:
@@ -21,13 +22,15 @@ services:
     image: mysql:8.0
     environment:
       - MYSQL_DATABASE=cityscout
-      - MYSQL_ROOT_PASSWORD=yourpassword
-    volumes:
-      - mysql_data:/var/lib/mysql
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_ROOT_HOST=%
     ports:
       - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
     networks:
       - cityscout-network
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 
 volumes:
   mysql_data:
