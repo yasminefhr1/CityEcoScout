@@ -18,34 +18,36 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 
 ## Features
 
--  **Interactive Map Exploration**
+ **Interactive Map Exploration**
+ 
   - Real-time location search with filters
   - Street View integration
   - Custom place markers for eco-friendly locations
 
--  **AI-Powered Recommendations**
+ **AI-Powered Recommendations**
+ 
   - Gemini AI integration for smart suggestions
   - Multi-language support
   - Image recognition capabilities
 
--  **Community Features**
+ **Community Features**
+ 
   - User posts and reviews
   - Event sharing
   - Sustainability tips
 
--  **Sustainable Place Discovery**
+ **Sustainable Place Discovery**
+ 
   - Eco-friendly location filtering
   - Sustainability ratings
   - Environmental impact metrics
 
--  **Secure Authentication**
+ **Secure Authentication**
+ 
   - JWT-based authentication
   - Role-based access control
   - Secure password management
 
-![image](https://github.com/user-attachments/assets/27734f4e-daeb-4224-98af-85ada53d979a)
-![image](https://github.com/user-attachments/assets/4ce8a645-e678-4d93-898f-f4c24100cda4)
-![image](https://github.com/user-attachments/assets/640e1d58-ad67-48fc-9882-46d2ae035880)
 
 
 ## Software Architecture
@@ -194,6 +196,13 @@ https://github.com/user-attachments/assets/1b1151b1-8684-41d1-9f7e-a61b37ce5923
 
 ## Contributors
 
-- FIHRI Yasmine 
-- LAHLYAL Ahmed Moubarak
-- Mohamed Lachgar 
+- FIHRI Yasmine (GitHub: [link](https://github.com/yasminefhr1))
+- LAHLYAL Ahmed Moubarak (GitHub: [link](https://github.com/amlmbr))
+- Mohamed Lachgar (ResearchGate: [link](https://www.researchgate.net/profile/Mohamed-Lachgar))
+
+## Screens
+
+![image](https://github.com/user-attachments/assets/27734f4e-daeb-4224-98af-85ada53d979a)
+![image](https://github.com/user-attachments/assets/4ce8a645-e678-4d93-898f-f4c24100cda4)
+![image](https://github.com/user-attachments/assets/640e1d58-ad67-48fc-9882-46d2ae035880)
+
