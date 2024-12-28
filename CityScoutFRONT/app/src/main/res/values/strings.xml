@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CityScout</string>
+    <string name="google_maps_api_key">AIzaSyCuv8OC8qgqbVeLKgDFDE6zVoFdN6dyyIw</string>
+    <string name="api_key">AIzaSyDjEbZDIm136ccfSpUiSwvrCUXtJENxJEU</string>
+
+    <string-array name="countries">
+        <item>United States</item>
+        <item>New Zealand</item>
+        <item>Cambodia</item>
+        <item>Australia</item>
+        <item>Venezuela</item>
+        <item>Indonesia</item>
+        <item>Canada</item>
+        <item>Uganda</item>
+        <item>Panama</item>
+        <item>Zimbabwe</item>
+        <item>Nigeria</item>
+        <item>United Kingdom</item>
+        <item>Ethiopia</item>
+        <item>Sri Lanka</item>
+        <item>India</item>
+        <item>Thailand</item>
+        <item>Philippines</item>
+        <item>Mexico</item>
+        <item>Dominican Republic</item>
+        <item>Italy</item>
+        <item>United Arab Emirates</item>
+        <item>Peru</item>
+        <item>France</item>
+        <item>Denmark</item>
+        <item>Morocco</item>
+    </string-array>
+</resources>
