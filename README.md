@@ -1,6 +1,7 @@
 # CityScout: A Platform for Exploring Sustainable Locations Worldwide
 
-![image](https://github.com/user-attachments/assets/26bdd20a-c0fe-47d0-b616-ebadca065a9e)
+![image](https://github.com/user-attachments/assets/a085ad81-496a-478a-bb9f-e1744da79b82)
+
 
 CityScout is an innovative AI-powered mobile platform designed to help users discover and evaluate environmentally responsible locations in their cities and beyond. By leveraging advanced APIs (Google Maps, Street View, Places) and cutting-edge Gemini AI technology, the application provides real-time sustainability metrics and immersive visualization of eco-friendly destinations.
 
@@ -10,6 +11,7 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 - [CityScout: A Platform for Exploring Sustainable Locations Worldwide](#cityscout-a-platform-for-exploring-sustainable-locations-worldwide)
 - [Features](#features)
 - [Software Architecture](#software-architecture)
+- [Backend Project Structure](#backend-project-structure)
 - [Docker Configuration](#docker-configuration)
 - [Technologies Used](#technologies-used)
   - [Backend](#backend)
@@ -22,7 +24,6 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 - [Quality Assurance](#quality-assurance)
 - [Video Demo](#video-demo)
 - [Contributors](#contributors)
-- [Screens](#screens)
 
 
 ## Features
@@ -65,6 +66,37 @@ The application follows a modern, scalable architecture:
 
 ![image](https://github.com/user-attachments/assets/e428a714-e292-45ee-8b29-e29fd60d52ab)
 
+
+## Backend Project Structure
+
+The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
+
+1. **com.ensa.CityScout**
+   - **Main Application Class:** `CityScoutApplication.java` serves as the entry point for the Spring Boot application. It includes the main method to start the application.
+   
+2. **com.ensa.CityScout.controller**
+   - **Controller Classes:** This package contains classes responsible for handling incoming HTTP requests. Each controller class is dedicated to a specific feature or entity, exposing RESTful endpoints. These classes interact with the services to process requests and return appropriate responses.
+
+3. **com.ensa.CityScout.entity**
+   - **Entity Classes:** This package includes classes representing data entities in the application. These classes are annotated with JPA annotations, defining the structure of the database tables. Each entity typically corresponds to a table in the MySQL database.
+
+4. **com.ensa.CityScout.repository**
+   - **Repository Interfaces:** This package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
+
+5. **com.ensa.CityScout.service**
+   - **Service Classes:** The service layer contains business logic. It acts as a bridge between the controllers and the repositories.
+
+6. **com.ensa.CityScout.dto**
+   - **Data Transfer Objects:** This package contains DTOs that are used to transfer data between different layers of the application.
+
+7. **com.ensa.CityScout.config**
+   - **Configuration Classes:** These classes define application-level configurations, including security, CORS, and custom beans.
+
+8. **com.ensa.CityScout.security.oauth2**
+   - **Security Implementation:** This package manages authentication and authorization using OAuth2 and JWT.
+
+9. **com.ensa.CityScout.util**
+   - **Utility Classes:** This package contains helper classes or methods that are reused throughout the application.
 
 ## Docker Configuration
 
@@ -177,13 +209,22 @@ cd backend
 docker-compose up -d
 ```
 
-## Security
+6. ## Chatbot Setup and Execution
 
-- JWT-based authentication
-- HTTPS encryption
-- API key validation
-- Input validation and sanitization
-- Role-based access control
+To run the chatbot module based on Flask:
+ **Navigate to the directory containing the `chatbot.py` file:**
+   ```bash
+   cd pythonCodes
+   python chatbot.py
+The chatbot will be available locally at http://127.0.0.1:5000 or on another port as configured in the chatbot.py code.
+   ```
+
+
+##Security
+JWT-based authentication
+HTTPS encryption
+API key validation
+Input validation and sanitization
 
 ## Quality Assurance
 
@@ -209,9 +250,4 @@ https://github.com/user-attachments/assets/1b1151b1-8684-41d1-9f7e-a61b37ce5923
 - LAHLYAL Ahmed Moubarak (GitHub: [link](https://github.com/amlmbr))
 - Mohamed Lachgar (ResearchGate: [link](https://www.researchgate.net/profile/Mohamed-Lachgar))
 
-## Screens
-
-![image](https://github.com/user-attachments/assets/27734f4e-daeb-4224-98af-85ada53d979a)
-![image](https://github.com/user-attachments/assets/4ce8a645-e678-4d93-898f-f4c24100cda4)
-![image](https://github.com/user-attachments/assets/640e1d58-ad67-48fc-9882-46d2ae035880)
 
