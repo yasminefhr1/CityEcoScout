@@ -20,7 +20,6 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Local Development Setup](#local-development-setup)
-- [Security](#security)
 - [Quality Assurance](#quality-assurance)
 - [Video Demo](#video-demo)
 - [Contributors](#contributors)
