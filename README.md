@@ -27,6 +27,8 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
 
 ## Features
 
+![image](https://github.com/user-attachments/assets/a085ad81-496a-478a-bb9f-e1744da79b82)
+
  **Interactive Map Exploration**
  
   - Real-time location search with filters
@@ -57,8 +59,6 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
   - Role-based access control
   - Secure password management
 
-
-![image](https://github.com/user-attachments/assets/a085ad81-496a-478a-bb9f-e1744da79b82)
 
 
 ## Software Architecture
