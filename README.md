@@ -220,12 +220,6 @@ The chatbot will be available locally at http://127.0.0.1:5000 or on another por
    ```
 
 
-##Security
-JWT-based authentication
-HTTPS encryption
-API key validation
-Input validation and sanitization
-
 ## Quality Assurance
 
 SonarQube analysis demonstrates:
