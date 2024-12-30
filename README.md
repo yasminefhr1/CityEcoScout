@@ -227,7 +227,6 @@ SonarQube analysis demonstrates:
 - 0% code duplication in backend
 - 1.1% code duplication in frontend
 - A-grade maintainability
-- Zero security hotspots
 - Comprehensive test coverage
 
 ## Video Demo
