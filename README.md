@@ -35,9 +35,9 @@ CityScout is an innovative AI-powered mobile platform designed to help users dis
   - Street View integration
   - Custom place markers for eco-friendly locations
 
- **AI-Powered Recommendations**
+ **AI-Powered Assistant**
  
-  - Gemini AI integration for smart suggestions
+  - Gemini AI integration 
   - Multi-language support
   - Image recognition capabilities
 
