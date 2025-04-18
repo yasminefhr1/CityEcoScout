@@ -1,4 +1,4 @@
-# CityScout: A Platform for Exploring Sustainable Locations Worldwide
+# CityEcoScout: A Platform for Exploring Sustainable Locations Worldwide
 
 ![a  Login Screen](https://github.com/user-attachments/assets/63109ac6-7841-4ab8-98cc-d5df7ae90498)
 
