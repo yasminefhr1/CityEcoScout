@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CityScout</string>
+    <string name="app_name">CityEcoScout</string>
     <string name="google_maps_api_key">AIzaSyCuv8OC8qgqbVeLKgDFDE6zVoFdN6dyyIw</string>
     <string name="api_key">AIzaSyDjEbZDIm136ccfSpUiSwvrCUXtJENxJEU</string>
 

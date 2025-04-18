@@ -265,7 +265,7 @@ private fun performSignup(
     val requestBody = jsonBody.toString().toRequestBody("application/json; charset=utf-8".toMediaType())
 
     val request = Request.Builder()
-        .url("http://192.168.11.107:8080/auth/signup") // Ensure this URL is correct
+        .url("http://10.0.2.2:8080/auth/signup") // Ensure this URL is correct
         .post(requestBody)
         .build()
 

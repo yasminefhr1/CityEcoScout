@@ -111,7 +111,7 @@ fun ChatScreen(
         Scaffold(
             topBar = {
                 AppTopBar(
-                    title = "CityScout Chat",
+                    title = "CityEcoScout Chat",
                     scope = scope,
                     drawerState = drawerState
                 )
@@ -198,7 +198,7 @@ fun WelcomeSection(exampleMessages: List<String>) {
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
-                    "Welcome to CityScout Chat!",
+                    "Welcome to CityEcoScout Chat!",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurfaceVariant

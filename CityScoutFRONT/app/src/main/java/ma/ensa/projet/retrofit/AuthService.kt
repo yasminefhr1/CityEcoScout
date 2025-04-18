@@ -13,7 +13,7 @@ import java.io.IOException
 
 object AuthService {
     private val client = OkHttpClient()
-    private const val BASE_URL = "http://192.168.11.107:8080"
+    private const val BASE_URL = "http://10.0.2.2:8080"
 
     fun performLogin(
         username: String,

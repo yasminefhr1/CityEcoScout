@@ -51,7 +51,7 @@ fun AppTopBar(
             ) {
                 Icon(
                     painter = painterResource(id = R.drawable.cityscout),
-                    contentDescription = "CityScout Logo",
+                    contentDescription = "CityEcoScout Logo",
                     modifier = Modifier.size(32.dp),
                     tint = Color.White // Change la couleur du logo en blanc
                 )

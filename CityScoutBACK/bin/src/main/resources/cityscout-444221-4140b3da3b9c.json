@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cityscout-444221",
+  "private_key_id": "4140b3da3b9c3ef965b1004c7d2031fbbfde8fce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCw7O4yDI/+MyD2\n/syuDNwFVj2ubSHHHCyWmcZz9EQP3CabtgRFKRG3a3j2KjSUyqreQJ5oIHeIhYiD\nS5+zBxuuLeSTPY748s/u9IATLV09/xO/R/sHv5QV2ndTCzwH74ExnVzlwT7GoN3D\nfve2t7YvtVnumre9ujb1a02kA4jzIqF5UpYVbgoAH0sV7slFR0UabvXU2z7J34ST\ngzIgMwFF8gNrXFFbunuT4ipRQhH8aKCokz5Lxrtr2LBZyZDwn/n1FbAkzbZnfo16\nA59ZtpXslOb5eJgfOHTdwTVR30fmG51pBJaWnjzGIxErLJv5L1GPxKPxiVGyE3CM\nAzCTYTlRAgMBAAECggEAF1GIQg/GeVdzHyVirrHtMcWLEvk5PCKU0d3p+mXAWWLH\nspAhLJ2xbb5ReV2uA8pZDjqau4ND8zoTov0NoFft0wgjbzCW2Rg6RaFIsWkHjWCY\nJrGC/s4bjhche6V9v6yrwhvzyX2txhofqwuJ9IrEDV0BQbch7nSjl7cRIEPYV0sJ\nhGUTxv/L2bZj8L5Lhqpi46CThzxqZ0j1conXVkIoXgamZp07hdtLQ7SGdlPDN/lv\nP7jox4MwX1jsVZ1TgS/qZcsFolyogESip0aSCG71lj+p5FT255jujDMiIJNi/COp\n7Fiq2Vubgm9no/uxQ3pkg5wsvWMUzJ3jlSDrxj4EbQKBgQD1KXHzFKigqPUM89rh\n84vL1jqsOCvqZ6zMQ6v7WwrJ71Q0P2xO+Hx2d9LeVXdvoxsAaFWg3p5qmhuKm8/I\n9epSgmQknDB9SdL5n05XJh8hgsOQ15UXSNLx1jw8SKBMe4HNtaQC9GKf0UCV67/E\nyCAXFOJayPvbtWiWGEKkUrGZpwKBgQC4vzzz7mYIO4aVh9EXpkf9MWj6iNbWX4y1\nL2iXGXEWIP3XoVpa34Sur7Dn5tI5mPST+e9+uqQdkd7xmnrZet65clrmzmHh+8K/\nI0Yw5/8CDiktoLPWxRzdnirGmfsigzrwfU+Cbuqlo57vXcs6qQ19a+WBgzWjmS7f\nihgH+Z8ERwKBgQCkO6pxO/KnBeh7T9TerueEmrPdcRfCRMeWYvMQRHIayvAuvBoT\nYRUHy8eAV+LV738EK+DJDrkzEp/GoBB3QH5D3cO2XseA9vaVcKnracdLDK10F2dy\nHL/rcCgT/lccRVS0eK0xqYN0KprIlBB4g9QzgjMMvD00dvdkLUZfjGIbWwKBgQCT\n+TjM+Ino1iS56Arlsl2+wrCe2rOZCPceuFZBkDMv0kT/TVGdr6IKeNZtKEgBsi1T\nyMC29K82r/ut8Fmtj+iNCLceXvevlYMqrQovaeKqtsTssubYgxDXwTPp1rN7tTik\nHvpsMoLnIOLQPoPk/Dq91ooA7iMsYilVCrqsyJdBSQKBgAZ2abS9Dn0rXg2TVVu6\nMeGEdB/8BDu321qv9mjTQ2blj9/PW2PYzel46uRts9OQQK477e8FxgljAwgzVbtG\nwWf4MWiT+ocYJ1mXU3rpb3HIx5AIz+2kQufSYzO2FBCTv+hSvtOPqvjnou9y5qi3\nRX+8FaSYMHPdkyXDbvaHFPtn\n-----END PRIVATE KEY-----\n",
+  "client_email": "dialogflow-client@cityscout-444221.iam.gserviceaccount.com",
+  "client_id": "117796411329163587376",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dialogflow-client%40cityscout-444221.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

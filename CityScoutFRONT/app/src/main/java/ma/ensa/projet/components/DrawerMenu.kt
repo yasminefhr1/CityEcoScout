@@ -49,7 +49,7 @@ fun DrawerMenu(
                     contentAlignment = Alignment.Center
                 ) {
                     Text(
-                        text = "CityScout",
+                        text = "CityEcoScout",
                         style = MaterialTheme.typography.headlineLarge,
                         color = MaterialTheme.colorScheme.onPrimary
                     )

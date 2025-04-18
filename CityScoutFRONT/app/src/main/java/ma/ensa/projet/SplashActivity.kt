@@ -95,7 +95,7 @@ class SplashActivity : AppCompatActivity() {
 
             // Création d'un dégradé animé pour le texte
             val paint = paint
-            val width = paint.measureText("CityScout")
+            val width = paint.measureText("CityEcoScout")
             val textShader = LinearGradient(
                 0f, 0f, width, textSize,
                 intArrayOf(

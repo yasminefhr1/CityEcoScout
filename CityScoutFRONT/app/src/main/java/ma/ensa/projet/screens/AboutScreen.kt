@@ -54,7 +54,7 @@ fun AboutScreen(
                 ) {
                     // App Logo or Title
                     Text(
-                        text = "CityScout",
+                        text = "CityEcoScout",
                         style = MaterialTheme.typography.headlineMedium,
                         color = MaterialTheme.colorScheme.primary,
                         modifier = Modifier.padding(vertical = 16.dp)
@@ -82,7 +82,7 @@ fun AboutScreen(
                             )
                             Spacer(modifier = Modifier.height(8.dp))
                             Text(
-                                text = "CityScout is your smart urban guide that helps you discover and explore the best places in your city. Our app allows you to easily find restaurants, tourist attractions, and local events.",
+                                text = "CityEcoScout is your smart urban guide that helps you discover and explore the best places in your city. Our app allows you to easily find restaurants, tourist attractions, and local events.",
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurface
                             )
@@ -139,7 +139,7 @@ fun AboutScreen(
 
                     // Copyright
                     Text(
-                        text = "© 2024 CityScout.",
+                        text = "© 2024 CityEcoScout.",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         textAlign = TextAlign.Center,

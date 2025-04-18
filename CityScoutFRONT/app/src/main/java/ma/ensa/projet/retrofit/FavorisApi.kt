@@ -30,7 +30,7 @@ interface FavorisApi {
     companion object {
         fun create(): FavorisApi {
             return Retrofit.Builder()
-                .baseUrl("http://192.168.11.107:8080/")
+                .baseUrl("http://10.0.2.2:8080/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(FavorisApi::class.java)
