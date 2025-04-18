@@ -3,12 +3,12 @@
 ![a  Login Screen](https://github.com/user-attachments/assets/63109ac6-7841-4ab8-98cc-d5df7ae90498)
 
 
-CityScout is an innovative mobile platform designed to help users discover and evaluate environmentally responsible locations in their cities and beyond. By leveraging advanced APIs (Google Maps, Street View, Places) and cutting-edge Gemini AI technology, the application provides real-time sustainability metrics and immersive visualization of eco-friendly destinations.
+CityEcoScout is an innovative mobile platform designed to help users discover and evaluate environmentally responsible locations in their cities and beyond. By leveraging advanced APIs (Google Maps, Street View, Places) and cutting-edge Gemini AI technology, the application provides real-time sustainability metrics and immersive visualization of eco-friendly destinations.
 
 
 ## Table of Contents
 
-- [CityScout: A Platform for Exploring Sustainable Locations Worldwide](#cityscout-a-platform-for-exploring-sustainable-locations-worldwide)
+- [CityEcoScout: A Platform for Exploring Sustainable Locations Worldwide](#CityEcoScout-a-platform-for-exploring-sustainable-locations-worldwide)
 - [Features](#features)
 - [Software Architecture](#software-architecture)
 - [Backend Project Structure](#backend-project-structure)
@@ -72,31 +72,31 @@ The application follows a modern, scalable architecture:
 
 The backend code follows a modular and organized structure, leveraging the power of Spring Boot for building a robust and scalable application.
 
-1. **com.ensa.CityScout**
-   - **Main Application Class:** `CityScoutApplication.java` serves as the entry point for the Spring Boot application. It includes the main method to start the application.
+1. **com.ensa.CityEcoScout**
+   - **Main Application Class:** `CityEcoScoutApplication.java` serves as the entry point for the Spring Boot application. It includes the main method to start the application.
    
-2. **com.ensa.CityScout.controller**
+2. **com.ensa.CityEcoScout.controller**
    - **Controller Classes:** This package contains classes responsible for handling incoming HTTP requests. Each controller class is dedicated to a specific feature or entity, exposing RESTful endpoints. These classes interact with the services to process requests and return appropriate responses.
 
-3. **com.ensa.CityScout.entity**
+3. **com.ensa.CityEcoScout.entity**
    - **Entity Classes:** This package includes classes representing data entities in the application. These classes are annotated with JPA annotations, defining the structure of the database tables. Each entity typically corresponds to a table in the MySQL database.
 
-4. **com.ensa.CityScout.repository**
+4. **com.ensa.CityEcoScout.repository**
    - **Repository Interfaces:** This package contains interfaces that extend Spring Data JPA repositories. These interfaces provide methods for basic CRUD operations and are used by services to interact with the database.
 
-5. **com.ensa.CityScout.service**
+5. **com.ensa.CityEcoScout.service**
    - **Service Classes:** The service layer contains business logic. It acts as a bridge between the controllers and the repositories.
 
-6. **com.ensa.CityScout.dto**
+6. **com.ensa.CityEcoScout.dto**
    - **Data Transfer Objects:** This package contains DTOs that are used to transfer data between different layers of the application.
 
-7. **com.ensa.CityScout.config**
+7. **com.ensa.CityEcoScout.config**
    - **Configuration Classes:** These classes define application-level configurations, including security, CORS, and custom beans.
 
-8. **com.ensa.CityScout.security.oauth2**
+8. **com.ensa.CityEcoScout.security.oauth2**
    - **Security Implementation:** This package manages authentication and authorization using OAuth2 and JWT.
 
-9. **com.ensa.CityScout.util**
+9. **com.ensa.CityEcoScout.util**
    - **Utility Classes:** This package contains helper classes or methods that are reused throughout the application.
 
 ## Docker Configuration
@@ -107,12 +107,12 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./CityScoutBACK
+      context: ./CityEcoScoutBACK
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/cityscout?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/CityEcoScout?createDatabaseIfNotExist=true
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
@@ -120,12 +120,12 @@ services:
     depends_on:
       - db
     networks:
-      - cityscout-network
+      - CityEcoScout-network
 
   db:
     image: mysql:8.0
     environment:
-      - MYSQL_DATABASE=cityscout
+      - MYSQL_DATABASE=CityEcoScout
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_ROOT_HOST=%
     ports:
@@ -133,14 +133,14 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
-      - cityscout-network
+      - CityEcoScout-network
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 
 volumes:
   mysql_data:
 
 networks:
-  cityscout-network:
+  CityEcoScout-network:
     driver: bridge
 ```
 
@@ -179,8 +179,8 @@ networks:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yasminefhr1/CityScout_MobileApp.git
-cd CityScout
+git clone https://github.com/yasminefhr1/CityEcoScout_MobileApp.git
+cd CityEcoScout
 ```
 
 2. **Environment Configuration**
