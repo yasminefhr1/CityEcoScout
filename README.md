@@ -108,12 +108,12 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./CityEcoScoutBACK
+      context: ./CityScoutBACK
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/CityEcoScout?createDatabaseIfNotExist=true
+      - SPRING_DATASOURCE_URL=jdbc:mysql://db:3306/CityScout?createDatabaseIfNotExist=true
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
@@ -121,12 +121,12 @@ services:
     depends_on:
       - db
     networks:
-      - CityEcoScout-network
+      - CityScout-network
 
   db:
     image: mysql:8.0
     environment:
-      - MYSQL_DATABASE=CityEcoScout
+      - MYSQL_DATABASE=CityScout
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes
       - MYSQL_ROOT_HOST=%
     ports:
@@ -134,14 +134,14 @@ services:
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
-      - CityEcoScout-network
+      - CityScout-network
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
 
 volumes:
   mysql_data:
 
 networks:
-  CityEcoScout-network:
+  CityScout-network:
     driver: bridge
 ```
 
@@ -180,8 +180,8 @@ networks:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yasminefhr1/CityEcoScout_MobileApp.git
-cd CityEcoScout
+git clone https://github.com/yasminefhr1/CityScout_MobileApp.git
+cd CityScout
 ```
 
 2. **Environment Configuration**
