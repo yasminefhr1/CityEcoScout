@@ -1,6 +1,7 @@
 # CityEcoScout: A Platform for Exploring Sustainable Locations Worldwide
 
-![a  Login Screen](https://github.com/user-attachments/assets/63109ac6-7841-4ab8-98cc-d5df7ae90498)
+![a  Login Screen](https://github.com/user-attachments/assets/5c6959ea-b071-46ef-9efe-9e929b5604eb)
+
 
 
 CityEcoScout is an innovative mobile platform designed to help users discover and evaluate environmentally responsible locations in their cities and beyond. By leveraging advanced APIs (Google Maps, Street View, Places) and cutting-edge Gemini AI technology, the application provides real-time sustainability metrics and immersive visualization of eco-friendly destinations.
